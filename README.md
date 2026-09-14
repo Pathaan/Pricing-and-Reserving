@@ -60,3 +60,21 @@ The following basis is used while **pricing and profit testing** this product:
 | ------------ | --------------------------------------------------------------: |
 | Fixed        | 25 per policy per annum, incurred at the beginning of each year |
 | % of Premium |                                                            1.5% |
+
+| Event Based Expenses |  |
+| --- | --- |
+| Death Claim | 400 per policy |
+| Maturity Claim | 200 per policy |
+| Surrender Claim | 150 per policy |
+| Survival Claim | 50 per policy |
+
+Expense Inflation: Fixed renewal expenses will be inflated each year by 2.5% per annum
+
+* Interest Rate: 8.25% per annum
+
+*Set up a dynamic cashflow model which can be used for any model point in the Model Point table below by simply changing the model point number in the model. This model should be able to:*
+
+* *Determine the premium for all the ten model points assuming i.) mortality as the only decrement ii.) no reserves are held iii.) profit margin of 4% for each policy*
+* *Determine the Gross Premium Prospective Reserves at the end of each policy year for the 5ᵗʰ model point using the same premium and basis.*
+* *Calculate the retrospective reserves using the same premium and basis for the 7ᵗʰ model point.*
+* *Using the same premiums as those derived above and assuming no reserves are held, determine the profit margin assuming lapses as those given in the basis above and surrender value equal to the below*
