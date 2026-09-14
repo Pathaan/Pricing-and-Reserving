@@ -96,3 +96,8 @@ Expense Inflation: Fixed renewal expenses will be inflated each year by 2.5% per
 Based on Profit Targeting: Insurers asume a level of profitability and back-calculate the premiums to be charged to achieve that profitability.
 
 Based on Competition: Products are highly competitive and price sensitive. They have to be constantly repriced in light of emerging new competition.
+
+
+Initial Expenses = Fixed Expenses + (Premium * % of Premium) + (Sum Assured * % of Sum Asured)
+
+Note: Initial Expenses are incurred in the 1st Year only.
