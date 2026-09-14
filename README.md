@@ -21,3 +21,42 @@ The product is proposed to have the following features:
 
 3. **Death after the premium payment term:**
    On death after the premium payment term but before the end of the policy term, the death benefit will be equal to the **original Sum Assured less the survival benefits already paid up to the date of death**.
+
+The following basis is used while **pricing and profit testing** this product:
+
+### Mortality
+
+* **Male non-smokers:**
+  Male non-smokers are expected to experience mortality in line with the **IALM 2012–14 table**.
+
+* **Female non-smokers:**
+  Female non-smokers are expected to experience **male non-smoker mortality with a 20% discount**.
+
+* **Smokers:**
+  Smokers are expected to experience the respective **male/female non-smoker mortality rates with a 40% premium**.
+
+### Lapses
+
+| Policy Year | Lapse Rate |
+| ----------- | ---------: |
+| 1           |        20% |
+| 2–5         |        15% |
+| 6–15        |        12% |
+| 16 onward   |        10% |
+
+## Expenses
+
+### Initial Expenses
+
+| Expense Type     |         Amount |
+| ---------------- | -------------: |
+| Fixed            | 250 per policy |
+| % of Premium     |            15% |
+| % of Sum Assured |          0.01% |
+
+### Renewal Expenses
+
+| Expense Type |                                                          Amount |
+| ------------ | --------------------------------------------------------------: |
+| Fixed        | 25 per policy per annum, incurred at the beginning of each year |
+| % of Premium |                                                            1.5% |
