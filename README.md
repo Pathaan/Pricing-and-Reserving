@@ -105,3 +105,6 @@ Note: Initial Expenses are incurred in the 1st Year only.
 
 ### Renewal Expenses:
 If the policy year is blank, it will remain blank. Else we add the fixed and variable part of renewal expenses. Please note that the fixed expense part is inflated at the inflation rate.
+
+
+### ALT + M + V for Evaluating formula 
