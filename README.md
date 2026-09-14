@@ -78,3 +78,21 @@ Expense Inflation: Fixed renewal expenses will be inflated each year by 2.5% per
 * *Determine the Gross Premium Prospective Reserves at the end of each policy year for the 5ᵗʰ model point using the same premium and basis.*
 * *Calculate the retrospective reserves using the same premium and basis for the 7ᵗʰ model point.*
 * *Using the same premiums as those derived above and assuming no reserves are held, determine the profit margin assuming lapses as those given in the basis above and surrender value equal to the below*
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Methodology of Pricing Products**
+
+Based on Profit Targeting: Insurers asume a level of profitability and back-calculate the premiums to be charged to achieve that profitability.
+
+Based on Competition: Products are highly competitive and price sensitive. They have to be constantly repriced in light of emerging new competition.
