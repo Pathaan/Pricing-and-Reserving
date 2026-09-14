@@ -98,6 +98,10 @@ Based on Profit Targeting: Insurers asume a level of profitability and back-calc
 Based on Competition: Products are highly competitive and price sensitive. They have to be constantly repriced in light of emerging new competition.
 
 
-Initial Expenses = Fixed Expenses + (Premium * % of Premium) + (Sum Assured * % of Sum Asured)
+### Initial Expenses = Fixed Expenses + (Premium * % of Premium) + (Sum Assured * % of Sum Asured)
 
 Note: Initial Expenses are incurred in the 1st Year only.
+
+
+### Renewal Expenses:
+If the policy year is blank, it will remain blank. Else we add the fixed and variable part of renewal expenses. Please note that the fixed expense part is inflated at the inflation rate.
