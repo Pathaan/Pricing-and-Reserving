@@ -138,5 +138,6 @@ Note: This happens at end of the policy term.
 ### Expected Survival Cost:
 (Survival Benefit + Survival Claim Expense) * Survival Probability
 
-### Survival Claim Expense should be incurred only in the year when Survival Benefit is paid which is when the Premium Payment Term ends. For Maturity Expense as well we need to make sure this is incurred only at the end of the policy term.
+**Survival Claim Expense** should be incurred only in the year when Survival Benefit is paid which is when the Premium Payment Term ends. For Maturity Expense as well we need to make sure this is incurred only at the end of the policy term.
 
+**Expected Death Cost** = (Death Benefit + Death Claim Expense) * Mortality Rate
