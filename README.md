@@ -111,3 +111,15 @@ If the policy year is blank, it will remain blank. Else we add the fixed and var
 
 ### Interest = Interest *Net Cashflow
 ### Mortality: Calculated using the IAML table adjusted for the mortality factor depending upon the gender and smoking status of the Policyholder.
+### Survival Probability: 1 - Mortality
+### Survival Benefit:
+
+It is payable only if the policyholder survives upto the Premium payment term.
+
+According to the case study, the benefit payable is 10% of the sum assured. It will only be paid at the end of the year where the premium payment term ends, which is the tenth year in this case. The Sum assured is 1,50,000 that is why the survival benefit comes out to be 15,000
+
+### Maturity Benefit:
+
+Policy holder receives this only if he/she is alive at the end of the policy term.
+
+The benefit payable is 50% of the sum assured at the end of the policy term. We can see that the maturity benefit comes out to be 75,000 which is 50% of 150,000.
