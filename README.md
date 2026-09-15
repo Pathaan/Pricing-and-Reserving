@@ -123,3 +123,6 @@ According to the case study, the benefit payable is 10% of the sum assured. It w
 Policy holder receives this only if he/she is alive at the end of the policy term.
 
 The benefit payable is 50% of the sum assured at the end of the policy term. We can see that the maturity benefit comes out to be 75,000 which is 50% of 150,000.
+
+### Survival Claim Expense:
+Survival Expense * (1 + Expense Inflation) ^ (Policy Year - 1)
