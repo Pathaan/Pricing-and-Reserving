@@ -110,3 +110,4 @@ If the policy year is blank, it will remain blank. Else we add the fixed and var
 ### ALT + M + V for Evaluating formula 
 
 ### Interest = Interest *Net Cashflow
+### Mortality: Calculated using the IAML table adjusted for the mortality factor depending upon the gender and smoking status of the Policyholder.
