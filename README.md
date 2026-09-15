@@ -1,4 +1,4 @@
-# Pricing-and-Reserving
+<img width="1115" height="71" alt="image" src="https://github.com/user-attachments/assets/6915b539-ab3c-4e0e-89ba-c5cc298c1637" /># Pricing-and-Reserving
 # Question
 
 A life insurance company is planning to launch a new **without-profit endowment assurance product**. This product will be offered to all male and female individuals with the following boundary parameters:
@@ -126,3 +126,17 @@ The benefit payable is 50% of the sum assured at the end of the policy term. We 
 
 ### Survival Claim Expense:
 Survival Expense * (1 + Expense Inflation) ^ (Policy Year - 1)
+
+### Death Claim Expense:
+Death Expense * (1 + Expense Inflation) ^ (Policy Year - 1)
+
+### Maturity Claim Expense:
+Maturity Expense * (1 + Expense Inflation) ^ (Policy Year - 1)
+
+Note: This happens at end of the policy term.
+
+### Expected Survival Cost:
+(Survival Benefit + Survival Claim Expense) * Survival Probability
+
+### Survival Claim Expense should be incurred only in the year when Survival Benefit is paid which is when the Premium Payment Term ends. For Maturity Expense as well we need to make sure this is incurred only at the end of the policy term.
+
