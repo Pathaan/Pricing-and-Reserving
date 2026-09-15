@@ -108,3 +108,5 @@ If the policy year is blank, it will remain blank. Else we add the fixed and var
 
 
 ### ALT + M + V for Evaluating formula 
+
+### Interest = Interest *Net Cashflow
