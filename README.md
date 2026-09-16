@@ -159,6 +159,8 @@ Note: This happens at end of the policy term.
 
 
 * **Determine the Gross Premium Prospective Reserves at the end of each policy year for the 5ᵗʰ model point using the same premium and basis.**
+  
+<img width="1432" height="733" alt="image" src="https://github.com/user-attachments/assets/b3bbade8-b8af-449d-9ca7-0d0c79d52d0b" />
 
 **Prospective Reserve at Start of Year** = - Expected Net Cashflow / (1 + Interest Rate)
 
@@ -168,8 +170,11 @@ In other words, **the reserves at the start of the 9th year** = Expected net cas
 
 **Calculate the retrospective reserves using the same premium and basis for the 7ᵗʰ model point.**
 
+<img width="2199" height="639" alt="image" src="https://github.com/user-attachments/assets/71754dbc-2ae9-4d1c-8a31-acd656472fcf" />
 **Retrospective Reserve** at Start of the 1st Year is always Zero
 
 In other words, **Retrospective Reserve** at Start of the 2st Year = Expected Net Cash Flow at the end of the 1st year divided by the probability of surviving the 1st year
 
 **Retrospective Reserve at Start of the Current Year** = Expected Net Cash Flow at the end of the Previous Year / Probability of Surviving in Previous Year+Reserves at the start of the Previous Year accumulated for one year divided by the Probability of Surviving in the Previous Year.
+									
+
