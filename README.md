@@ -110,22 +110,33 @@ Interest	=IF(A7="","",(C7-D7-E7)*Interest_Rate)
 Mortality	=IF(A7="","",VLOOKUP(B7,Assumptions!A21:B134,2,FALSE)*IF(Gender="Male",IF(Smoker_Status="Yes",Male_S_Mort_Factor,Male_NS_Mort_Factor),IF(Smoker_Status="Yes",Female_S_Mort_Factor,Female_NS_Mort_Factor)))
 	
 Survival Probability	=IF(A7="","",1-G7)
+
 Survival Benefit	=IF(A7="","",IF(A7=PPT,0.1*SA,0))
+
 Death Benefit	=IF(A7="","",IF(A7>PPT,90%*SA,SA))
+
 Maturity Benefit	=IF(A7="","",IF(A7=Policy_Term,50%*SA,0))
 	
 Survival Claim Expenses	=IF(A7="","",IF(PPT=A7,Survival_Claim*(1+Expense_Inflation)^(A7-1),0))
 	
 Death Claim Expenses	=IF(A7="","",Death_Claim*(1+Expense_Inflation)^(A7-1))
+
 Maturity Claim Expenses	=IF(A7="","",IF(A7=Policy_Term,Maturity_Claim*(1+Expense_Inflation)^(A7-1),0))
+
 Expected Survival Cost	=IF(A7="","",(I7+L7)*H7)
+
 Expected Death Cost	=IF(A7="","",(J7+M7)*G7)
+
 Expected Maturity Cost	=IF(A7="","",(K7+N7)*H7)
+
 Expected Net Cashflow/Profit	=IF(A7="","",C7-D7-E7+F7-O7-P7-Q7)
+
 Probability of staying in force in the first year	=IF(A7="","",IF(A7=1,1,((S6*H6))))
+
 Profit Signature	=IF(A7="","",R7*S7)
 	
 Discount Factor	=IF(A7="","",(1+Interest_Rate)^(-A7))
+
 Expected present value of Profit	=IF(A7="","",T7*U7)
 	
 
