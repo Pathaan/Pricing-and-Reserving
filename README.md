@@ -79,6 +79,11 @@ Expense Inflation: Fixed renewal expenses will be inflated each year by 2.5% per
 * *Calculate the retrospective reserves using the same premium and basis for the 7ᵗʰ model point.*
 * *Using the same premiums as those derived above and assuming no reserves are held, determine the profit margin assuming lapses as those given in the basis above and surrender value equal to the below*
 
+| Year of Surrender | Surrender Value |
+| --- | --- |
+| 1ˢᵗ | 10% of premiums paid to date |
+| 2ⁿᵈ – PPT | 50% of premiums paid to date |
+| After PPT | 80% of premiums paid to date |
 
 
 
@@ -228,3 +233,10 @@ In other words, **Retrospective Reserve** at Start of the 2st Year = Expected Ne
 **Retrospective Reserve at Start of the Current Year** = Expected Net Cash Flow at the end of the Previous Year / Probability of Surviving in Previous Year+Reserves at the start of the Previous Year accumulated for one year divided by the Probability of Surviving in the Previous Year.
 									
 
+## *Using the same premiums as those derived above and assuming no reserves are held, determine the profit margin assuming lapses as those given in the basis above and surrender value equal to the below*
+
+| Year of Surrender | Surrender Value |
+| --- | --- |
+| 1ˢᵗ | 10% of premiums paid to date |
+| 2ⁿᵈ – PPT | 50% of premiums paid to date |
+| After PPT | 80% of premiums paid to date |
