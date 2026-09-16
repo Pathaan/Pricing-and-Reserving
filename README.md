@@ -1,4 +1,4 @@
-# Pricing-and-Reserving
+<img width="2209" height="71" alt="image" src="https://github.com/user-attachments/assets/6747fa08-c42e-4d77-b04f-c062ba35d491" /># Pricing-and-Reserving
 # Question
 
 A life insurance company is planning to launch a new **without-profit endowment assurance product**. This product will be offered to all male and female individuals with the following boundary parameters:
@@ -91,7 +91,46 @@ Expense Inflation: Fixed renewal expenses will be inflated each year by 2.5% per
 
 * **Determine the premium for all the ten model points assuming i.) mortality as the only decrement ii.) no reserves are held iii.) profit margin of 4% for each policy?**
 
+**Model Points**  
+<img width="1772" height="670" alt="image" src="https://github.com/user-attachments/assets/ecd4f194-7aa5-4317-902f-e67946f21f9b" />
+
+**Assumptions**										
+<img width="1345" height="784" alt="image" src="https://github.com/user-attachments/assets/ab80f14b-0b04-4360-bf4b-1d6ca30e7bdd" />
+
+**Premium Derivation**
+																					
+<img width="2407" height="1016" alt="image" src="https://github.com/user-attachments/assets/82678a69-e9c0-4a9c-85cd-5327ac9f4d52" />
+
 **Methodology of Pricing Products**
+
+Renewal Expenses	=IF(A7="","",Renewal_Fixed*(1+Expense_Inflation)^(A7-1)+Renewal_percent_of_Premium*Premium)
+	
+Interest	=IF(A7="","",(C7-D7-E7)*Interest_Rate)
+	
+Mortality	=IF(A7="","",VLOOKUP(B7,Assumptions!A21:B134,2,FALSE)*IF(Gender="Male",IF(Smoker_Status="Yes",Male_S_Mort_Factor,Male_NS_Mort_Factor),IF(Smoker_Status="Yes",Female_S_Mort_Factor,Female_NS_Mort_Factor)))
+	
+Survival Probability	=IF(A7="","",1-G7)
+Survival Benefit	=IF(A7="","",IF(A7=PPT,0.1*SA,0))
+Death Benefit	=IF(A7="","",IF(A7>PPT,90%*SA,SA))
+Maturity Benefit	=IF(A7="","",IF(A7=Policy_Term,50%*SA,0))
+	
+Survival Claim Expenses	=IF(A7="","",IF(PPT=A7,Survival_Claim*(1+Expense_Inflation)^(A7-1),0))
+	
+Death Claim Expenses	=IF(A7="","",Death_Claim*(1+Expense_Inflation)^(A7-1))
+Maturity Claim Expenses	=IF(A7="","",IF(A7=Policy_Term,Maturity_Claim*(1+Expense_Inflation)^(A7-1),0))
+Expected Survival Cost	=IF(A7="","",(I7+L7)*H7)
+Expected Death Cost	=IF(A7="","",(J7+M7)*G7)
+Expected Maturity Cost	=IF(A7="","",(K7+N7)*H7)
+Expected Net Cashflow/Profit	=IF(A7="","",C7-D7-E7+F7-O7-P7-Q7)
+Probability of staying in force in the first year	=IF(A7="","",IF(A7=1,1,((S6*H6))))
+Profit Signature	=IF(A7="","",R7*S7)
+	
+Discount Factor	=IF(A7="","",(1+Interest_Rate)^(-A7))
+Expected present value of Profit	=IF(A7="","",T7*U7)
+	
+
+
+
 
 Based on Profit Targeting: Insurers asume a level of profitability and back-calculate the premiums to be charged to achieve that profitability.
 
