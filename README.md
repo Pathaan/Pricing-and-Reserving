@@ -89,7 +89,7 @@ Expense Inflation: Fixed renewal expenses will be inflated each year by 2.5% per
 
 
 
-
+* **Determine the premium for all the ten model points assuming i.) mortality as the only decrement ii.) no reserves are held iii.) profit margin of 4% for each policy?**
 
 **Methodology of Pricing Products**
 
@@ -156,3 +156,6 @@ Note: This happens at end of the policy term.
 
 **Discount Factor** = (1+Interest Rate)^(-n)
 **Expected Present Value of Profit** = Profit Signature * Discount Factor
+
+
+* **Determine the Gross Premium Prospective Reserves at the end of each policy year for the 5ᵗʰ model point using the same premium and basis.**
