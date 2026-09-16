@@ -240,3 +240,6 @@ In other words, **Retrospective Reserve** at Start of the 2st Year = Expected Ne
 | 1ˢᵗ | 10% of premiums paid to date |
 | 2ⁿᵈ – PPT | 50% of premiums paid to date |
 | After PPT | 80% of premiums paid to date |
+
+
+### Early Surrender → ↓ Surrender Value
