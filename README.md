@@ -1,4 +1,4 @@
-<img width="2209" height="71" alt="image" src="https://github.com/user-attachments/assets/6747fa08-c42e-4d77-b04f-c062ba35d491" /># Pricing-and-Reserving
+# Pricing-and-Reserving
 # Question
 
 A life insurance company is planning to launch a new **without-profit endowment assurance product**. This product will be offered to all male and female individuals with the following boundary parameters:
