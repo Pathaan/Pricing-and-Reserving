@@ -166,6 +166,8 @@ Note: This happens at end of the policy term.
 
 In other words, **the reserves at the start of the 9th year** = Expected net cashflow at the end of the 9th year discounted for one year and expected net cashflows at the end of the 10th year discounted back for two years and multiplied by the probability of survival in the 9th year.
 
+**Calculate the retrospective reserves using the same premium and basis for the 7ᵗʰ model point.**
+
 **Retrospective Reserve** at Start of the 1st Year is always Zero
 
 In other words, **Retrospective Reserve** at Start of the 2st Year = Expected Net Cash Flow at the end of the 1st year divided by the probability of surviving the 1st year
