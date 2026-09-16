@@ -155,3 +155,4 @@ Note: This happens at end of the policy term.
 **Profit Signature** = Probability of staying in-force at the start of the year * Profit
 
 **Discount Factor** = (1+Interest Rate)^(-n)
+**Expected Present Value of Profit** = Profit Signature * Discount Factor
