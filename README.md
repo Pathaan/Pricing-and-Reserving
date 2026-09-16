@@ -144,10 +144,14 @@ Note: This happens at end of the policy term.
 
 **Expected Maturity Cost** = (Maturity Benefit + Maturity Claim Expense) * Survival Benefit
 
-**Expected Net Cashflow** = Premium - Initial Expenses - Renewal Expenses + Interest - Expected Survival Cost - Expected Death Cost - Expected Maturity Cost.
+**Expected Net Cashflow/ Profit** = Premium - Initial Expenses - Renewal Expenses + Interest - Expected Survival Cost - Expected Death Cost - Expected Maturity Cost.
 
 **Probability of staying in-force at the start of the first year** is 1.
 
 **Probability of staying in-force at the start of the nth year** = Probability of staying in-force at the start of the (n-1)th year × Probability of surviving the (n-1)th year
 
 **NPV of Profit for the model** = Sum of all the expected NPV for profit figures in column V
+
+**Profit Signature** = Probability of staying in-force at the start of the year * Profit
+
+**Discount Factor** = (1+Interest Rate)^(-n)
