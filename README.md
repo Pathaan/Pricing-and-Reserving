@@ -1,4 +1,4 @@
-<img width="1115" height="71" alt="image" src="https://github.com/user-attachments/assets/6915b539-ab3c-4e0e-89ba-c5cc298c1637" /># Pricing-and-Reserving
+<img width="1240" height="64" alt="image" src="https://github.com/user-attachments/assets/0b66c76a-185b-4258-9e40-5822ffeed2c2" /><img width="1115" height="71" alt="image" src="https://github.com/user-attachments/assets/6915b539-ab3c-4e0e-89ba-c5cc298c1637" /># Pricing-and-Reserving
 # Question
 
 A life insurance company is planning to launch a new **without-profit endowment assurance product**. This product will be offered to all male and female individuals with the following boundary parameters:
@@ -159,3 +159,15 @@ Note: This happens at end of the policy term.
 
 
 * **Determine the Gross Premium Prospective Reserves at the end of each policy year for the 5ᵗʰ model point using the same premium and basis.**
+
+**Prospective Reserve at Start of Year** = - Expected Net Cashflow / (1 + Interest Rate)
+
+**Prospective Reserve at Start of the Current Year** = - Expected Net Cashflow at the End of the Current Year / (1 + Interest Rate) + Prospective Reserve at Start of Next Year * Probability of Survival in the Current Year
+
+In other words, **the reserves at the start of the 9th year** = Expected net cashflow at the end of the 9th year discounted for one year and expected net cashflows at the end of the 10th year discounted back for two years and multiplied by the probability of survival in the 9th year.
+
+**Retrospective Reserve** at Start of the 1st Year is always Zero
+
+In other words, **Retrospective Reserve** at Start of the 2st Year = Expected Net Cash Flow at the end of the 1st year divided by the probability of surviving the 1st year
+
+**Retrospective Reserve at Start of the Current Year** = Expected Net Cash Flow at the end of the Previous Year / Probability of Surviving in Previous Year+Reserves at the start of the Previous Year accumulated for one year divided by the Probability of Surviving in the Previous Year.
