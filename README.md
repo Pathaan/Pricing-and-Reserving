@@ -242,4 +242,8 @@ In other words, **Retrospective Reserve** at Start of the 2st Year = Expected Ne
 | After PPT | 80% of premiums paid to date |
 
 
-### Early Surrender → ↓ Surrender Value
+**Early Surrender** → ↓ Surrender Value
+
+**Independent Lapse Probability** = As per rates in Lapse Array Table
+
+**Surrender Claim Expenses**  =  Surrender Expense  *  (1 + Expense Inflation) ^ ( Policy Year - 1 )
