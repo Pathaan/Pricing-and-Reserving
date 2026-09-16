@@ -141,3 +141,8 @@ Note: This happens at end of the policy term.
 **Survival Claim Expense** should be incurred only in the year when Survival Benefit is paid which is when the Premium Payment Term ends. For Maturity Expense as well we need to make sure this is incurred only at the end of the policy term.
 
 **Expected Death Cost** = (Death Benefit + Death Claim Expense) * Mortality Rate
+**Expected Maturity Cost** = (Maturity Benefit + Maturity Claim Expense) * Survival Benefit
+**Expected Net Cashflow** = Premium - Initial Expenses - Renewal Expenses + Interest - Expected Survival Cost - Expected Death Cost - Expected Maturity Cost.
+**Probability of staying in-force at the start of the first year** is 1.
+**Probability of staying in-force at the start of the nth year** = Probability of staying in-force at the start of the (n-1)th year × Probability of surviving the (n-1)th year
+**NPV of Profit for the model** = Sum of all the expected NPV for profit figures in column V
