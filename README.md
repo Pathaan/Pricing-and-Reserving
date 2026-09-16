@@ -101,7 +101,7 @@ Expense Inflation: Fixed renewal expenses will be inflated each year by 2.5% per
 																					
 <img width="2407" height="1016" alt="image" src="https://github.com/user-attachments/assets/82678a69-e9c0-4a9c-85cd-5327ac9f4d52" />
 
-**Methodology of Pricing Products**
+## formula used in this sheet
 
 Renewal Expenses	=IF(A7="","",Renewal_Fixed*(1+Expense_Inflation)^(A7-1)+Renewal_percent_of_Premium*Premium)
 	
@@ -130,7 +130,7 @@ Expected present value of Profit	=IF(A7="","",T7*U7)
 	
 
 
-
+**Methodology of Pricing Products**
 
 Based on Profit Targeting: Insurers asume a level of profitability and back-calculate the premiums to be charged to achieve that profitability.
 
