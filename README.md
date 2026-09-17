@@ -324,10 +324,10 @@ Expected present value of Profit (AB) =IF(A7="","",Z7*AA7)
 * Expense inflation turns out to be 4% p.a.
 
 
-## ↑ Mortality Factor  →  ↓ Profit Margin
+### ↑ Mortality Factor  →  ↓ Profit Margin
 
-## ↑ Interest Rate  →  ↑ Profit Margin
+### ↑ Interest Rate  →  ↑ Profit Margin
 
-## ↓ Lapses  →  ↓ Profit Margin
+### ↓ Lapses  →  ↓ Profit Margin
 
-## ↑ Expense Inflation  →  ↓ Profit Margin
+### ↑ Expense Inflation  →  ↓ Profit Margin
