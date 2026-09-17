@@ -233,7 +233,7 @@ In other words, **the reserves at the start of the 9th year** = Expected net cas
 <img width="2199" height="639" alt="image" src="https://github.com/user-attachments/assets/71754dbc-2ae9-4d1c-8a31-acd656472fcf" />
 **Retrospective Reserve** at Start of the 1st Year is always Zero
 
-In other words, **Retrospective Reserve** at Start of the 2st Year = Expected Net Cash Flow at the end of the 1st year divided by the probability of surviving the 1st year
+In other words, **Retrospective Reserve** at Start of the 2nd onward Year = Expected Net Cash Flow at the end of the 1st year divided by the probability of surviving the 1st year
 
 **Retrospective Reserve at Start of the Current Year** = Expected Net Cash Flow at the end of the Previous Year / Probability of Surviving in Previous Year+Reserves at the start of the Previous Year accumulated for one year divided by the Probability of Surviving in the Previous Year.
 									
@@ -255,12 +255,24 @@ In other words, **Retrospective Reserve** at Start of the 2st Year = Expected Ne
 
 **Expected Survival Cost**  =  ( Survival Benefit  +  Survival Claim Expense ) * Probability of staying in force after lapses
 
-**Expected Maturity Cost**  =  ( Maturity Benefit  +  Maturity Claim Expense ) * Probability of staying in force after lapses
-
+**Expected Maturity Cost**  =  ( Maturity Benefit  +  Maturity Claim Expense ) * Probability of staying in force after lapses																											
+<img width="3181" height="1248" alt="image" src="https://github.com/user-attachments/assets/c70decb7-ac2a-4e83-87c9-ec81d3a40411" />
 
 ### *Check the sensitivity of the profit margin for the first model point calculated in the step above, if:*
 
 * Mortality for male non-smokers increases by 10%
+
 * Annual interest rate rises by 100 bps
+
 * Lapses at each time point are halved
+
 * Expense inflation turns out to be 4% p.a.
+
+
+## ↑ Mortality Factor  →  ↓ Profit Margin
+
+## ↑ Interest Rate  →  ↑ Profit Margin
+
+## ↓ Lapses  →  ↓ Profit Margin
+
+## ↑ Expense Inflation  →  ↓ Profit Margin
