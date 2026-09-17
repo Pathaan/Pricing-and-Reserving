@@ -258,33 +258,61 @@ In other words, **Retrospective Reserve** at Start of the 2nd onward Year = Expe
 **Expected Maturity Cost**  =  ( Maturity Benefit  +  Maturity Claim Expense ) * Probability of staying in force after lapses																											
 <img width="3181" height="1248" alt="image" src="https://github.com/user-attachments/assets/c70decb7-ac2a-4e83-87c9-ec81d3a40411" />
 Policy Year (A)= Number of Period
+
 Age	(B)= Age of Policyholder during period
+
 Premium	(C) =IF(A7="","",IF(A7<=PPT,Premium,0))
+
 Initial Expenses (D)=IF(A7="","",IF(A7=1,Fixed+Percent_of_Premium*Premium+SA*Percent_SA,0))
+
 Renewal Expenses (E) =IF(A7="","",Renewal_Fixed*(1+Expense_Inflation)^(A7-1)+Renewal_percent_of_Premium*Premium)
+
 Interest (F) =IF(A7="","",(C7-D7-E7)*Interest_Rate)
-Mortality = G= Death of policyholder in a 
-Survival Probability(H) =IF(A7="","",VLOOKUP(B7,Assumptions!A21:B134,2,FALSE)*IF(Gender="Male",IF(Smoker_Status="Yes",Male_S_Mort_Factor,Male_NS_Mort_Factor),IF(Smoker_Status="Yes",Female_S_Mort_Factor,Female_NS_Mort_Factor)))
+
+Mortality (G) =IF(A7="","",VLOOKUP(B7,Assumptions!A21:B134,2,FALSE)*IF(Gender="Male",IF(Smoker_Status="Yes",Male_S_Mort_Factor,Male_NS_Mort_Factor),IF(Smoker_Status="Yes",Female_S_Mort_Factor,Female_NS_Mort_Factor))) 
+
+Survival Probability(H) =IF(A7="","",1-G7)
+
 Independent Lapse Probability(I) =IF(A7="","",VLOOKUP(A7,Lapse_rate,2,TRUE))
+
 Dependent Lapse Probability	(J) =IF(A7="","",H7*I7)
+
 Probability of Staying in force after lapse(K) =IF(A7="","",H7*(1-J7))
+
 Survival Benefit(L) =IF(A7="","",IF(A7=PPT,0.1*SA,0))
+
 Death Benefit(M) =IF(A7="","",IF(A7>PPT,90%*SA,SA))
+
 Maturity Benefit (N) =IF(A7="","",IF(A7=Policy_Term,50%*SA,0))	
-Surrender Benefit (O) =IF(A7="","",IF(A7=1,10%*SUM($C$7:C7),IF(AND(A7>1,A7<=PPT),50%*SUM(C$7:C7),80%*SUM($C$7:C7))))	
+
+Surrender Benefit (O) =IF(A7="","",IF(A7=1,10%*SUM($C$7:C7),IF(AND(A7>1,A7<=PPT),50%*SUM(C$7:C7),80%*SUM($C$7:C7))))
+
 Survival Claim Expenses	(P) =IF(A7="","",IF(PPT=A7,Survival_Claim*(1+Expense_Inflation)^(A7-1),0))
+
 Death Claim Expenses (Q) =IF(A7="","",Death_Claim*(1+Expense_Inflation)^(A7-1))
+
 Maturity Claim Expenses	(R) =IF(A7="","",IF(A7=Policy_Term,Maturity_Claim*(1+Expense_Inflation)^(A7-1),0))
+
 Surrender Claim Expenses (S) =IF(A7="","",Surrender_Claim*(1+Interest_Rate)^(A7-1))
+
 Expected Death Cost (T) =IF(A7="","",(M7+Q7)*G7)
+
 Expected Maturity Cost(U) =IF(A7="","",(N7+R7)*K7)
+
 Expected Survival Cost (V) =IF(A7="","",(L7+P7)*K7)
+
 Expected Surrender Cost	(W) =IF(A7="","",(O7+S7)*J7)
-Expected Net Cashflow/Profit (X) ==IF(A7="","",C7-D7-E7+F7-T7-U7-V7-W7)
+
+Expected Net Cashflow/Profit (X) =IF(A7="","",C7-D7-E7+F7-T7-U7-V7-W7)
+
 Probability of staying in force year (Y) =IF(A7="","",IF(A7=1,1,((Y6*K6))))
+
 Profit Signature (Z) =IF(A7="","",X7*Y7)
+
 Discount Factor (AA) =IF(A7="","",(1+Interest_Rate)^(-A7))
+
 Expected present value of Profit (AB) =IF(A7="","",Z7*AA7)
+
 ### *Check the sensitivity of the profit margin for the first model point calculated in the step above, if:*
 
 * Mortality for male non-smokers increases by 10%
