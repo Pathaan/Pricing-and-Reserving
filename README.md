@@ -247,3 +247,7 @@ In other words, **Retrospective Reserve** at Start of the 2st Year = Expected Ne
 **Independent Lapse Probability** = As per rates in Lapse Array Table
 
 **Surrender Claim Expenses**  =  Surrender Expense  *  (1 + Expense Inflation) ^ ( Policy Year - 1 )
+
+**Expected Survival Cost**  =  ( Survival Benefit  +  Survival Claim Expense ) * Probability of staying in force after lapses
+
+**Expected Maturity Cost**  =  ( Maturity Benefit  +  Maturity Claim Expense ) * Probability of staying in force after lapses
