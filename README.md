@@ -85,7 +85,12 @@ Expense Inflation: Fixed renewal expenses will be inflated each year by 2.5% per
 | 2ⁿᵈ – PPT | 50% of premiums paid to date |
 | After PPT | 80% of premiums paid to date |
 
+* *Check the sensitivity of the profit margin for the first model point calculated in the step above, if:*
 
+* Mortality for male non-smokers increases by 10%
+* Annual interest rate rises by 100 bps
+* Lapses at each time point are halved
+* Expense inflation turns out to be 4% p.a.
 
 
 
@@ -251,3 +256,11 @@ In other words, **Retrospective Reserve** at Start of the 2st Year = Expected Ne
 **Expected Survival Cost**  =  ( Survival Benefit  +  Survival Claim Expense ) * Probability of staying in force after lapses
 
 **Expected Maturity Cost**  =  ( Maturity Benefit  +  Maturity Claim Expense ) * Probability of staying in force after lapses
+
+
+### *Check the sensitivity of the profit margin for the first model point calculated in the step above, if:*
+
+* Mortality for male non-smokers increases by 10%
+* Annual interest rate rises by 100 bps
+* Lapses at each time point are halved
+* Expense inflation turns out to be 4% p.a.
